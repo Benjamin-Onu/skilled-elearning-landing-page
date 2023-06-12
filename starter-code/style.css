@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+body{
+    background-color: #F2F2F2;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/*Write out the base styles for your project, including general content styles, such as font-family and font-size.
+Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+*/
+.skilled{
+    font-size: 40px;
+}
+#head-1{
+    display: inline-block;
+}
+#head-2{
+    background-color: #13183F;
+    padding: 1em;
+    border-radius: 3em;
+    width: 6em;
+    display: inline-block;
+}
+#head-2 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#body01{
+    display: inline-block;
+}
+#body11{
+    display: inline-block;
+}
+#headingXL{
+    font-size: 56px;
+}
+#courselist{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 5em 5em 5em;
+}
+#box1{
+    background-color: #F74780;
+    padding: 1em;
+    border-radius: 3em;
+    width: 6em;
+}
+#box2 h2{
+    font-size: 32px;
+}
+#box2{
+    margin: 1em;
+    padding: 2em;
+    background-color: #F74780;
+    color: #FFFFFF;
+    border-radius: 1em;
+}
+
+.courses{
+    background-color: #FFFFFF;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+.courses h3{
+    font-size: 24px;
+}
+.courses a{
+    text-decoration: none;
+    color: #F74780;
+}
+
+footer{
+    background-color: #13183F;
+}
+footer #foo-1{
+    /* display: flex;
+    justify-content: flex-start; */
+    display: inline-block;
+}
+footer #foo-1 h2{
+    color: #FFFFFF;
+}
+footer #foo-2{
+    /* display: flex;
+    justify-content: flex-end; */
+    display: inline-block;
+    background-color: #4851FF;
+    border-radius: 3em;
+    padding: 1em;
+    width: 6em;
+}
+footer #foo-2 a, #box1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 576px){
+    #courselist{
+        display: grid;
+        grid-template-rows: 15% 17% 17% 17% 17%;
+        grid-template-columns: 100%;
+        margin: 0 0 5em 0;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #courselist{
+        display: grid;
+        grid-template-rows: 34% 33% 33%;
+        grid-template-columns: 50% 50%;
+        margin: 0 0 5em 0;
+    }
+}

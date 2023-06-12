@@ -53,13 +53,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+Overview of learnings
+-Use of Figma as a great and helpful design tool for getting colors and typography
+-Being able to study the layout of the website and get it
+-Media Queries to ensure different grids for different devices
+-Import embedded fonts into the CSS file
+
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -84,10 +87,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+-Still need to be confident with CSS flexbox and positioning properties
 
 ### Useful resources
 
@@ -98,11 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Add your name here](https://benjamin-onu.github.io/Personal-Website/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Benjamin-Onu)
 
 ## Acknowledgments
 
