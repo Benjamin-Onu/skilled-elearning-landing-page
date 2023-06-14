@@ -62,6 +62,7 @@ Overview of learnings
 -Being able to study the layout of the website and get it using CSS grid
 -Media Queries to ensure different grids for different devices
 -Import embedded fonts into the CSS file
+-CSS Linear gradient
 
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
