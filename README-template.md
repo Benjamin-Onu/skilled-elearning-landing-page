@@ -59,7 +59,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 Overview of learnings
 -Use of Figma as a great and helpful design tool for getting colors and typography
--Being able to study the layout of the website and get it
+-Being able to study the layout of the website and get it using CSS grid
 -Media Queries to ensure different grids for different devices
 -Import embedded fonts into the CSS file
 
@@ -82,19 +82,10 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
--Still need to be confident with CSS flexbox and positioning properties
+-There was a big improvement with using top, right, left and bottom properties for positioning the image and other elements. I will continue to practice CSS flexbox and positioning properties
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
@@ -102,7 +93,4 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Benjamin-Onu)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Acknowledgments to Frontend Mentor for this challenge.
