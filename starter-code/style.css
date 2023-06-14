@@ -10,25 +10,40 @@ Start adding styles to the top of the page and work down. Only move on to the ne
 .skilled{
     font-size: 40px;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
 #head-1{
-    display: inline-block;
+    margin-left: 5em;
 }
 #head-2{
     background-color: #13183F;
     padding: 1em;
     border-radius: 3em;
     width: 6em;
-    display: inline-block;
+    margin: 2em 10em 2em 2em ;
+}
+#head-2 a:hover{
+    background-color: rgb(131,134,154);
 }
 #head-2 a{
     text-decoration: none;
     color: #FFFFFF;
 }
+#body00{
+    display: flex;
+    justify-content: space-between;
+}
 #body01{
-    display: inline-block;
+    margin-left: 5em;
+    position: relative;
+    top: 10em;
 }
 #body11{
-    display: inline-block;
+    position: relative;
+    bottom: 15em;
+    left: 20em;
 }
 #headingXL{
     font-size: 56px;
@@ -38,12 +53,17 @@ Start adding styles to the top of the page and work down. Only move on to the ne
     grid-template-rows: 50% 50%;
     grid-template-columns: 33% 33% 33%;
     margin: 0 5em 5em 5em;
+    position: relative;
+    bottom: 15em;
 }
 #box1{
-    background-color: #F74780;
+    background-image: linear-gradient(to bottom, rgb(240, 42, 166), rgb(255, 111, 72));
     padding: 1em;
     border-radius: 3em;
     width: 6em;
+}
+#box1:hover{
+    background-image: linear-gradient(to bottom, rgba(240, 42, 166,0.5), rgba(255, 111, 72, 0.5));
 }
 #box2 h2{
     font-size: 32px;
@@ -51,14 +71,14 @@ Start adding styles to the top of the page and work down. Only move on to the ne
 #box2{
     margin: 1em;
     padding: 2em;
-    background-color: #F74780;
+    background-image: linear-gradient(to bottom, rgb(240, 42, 166), rgb(255, 111, 72));
     color: #FFFFFF;
     border-radius: 1em;
 }
 
 .courses{
     background-color: #FFFFFF;
-    margin: 1em;
+    margin: 2em 1em 2em 1em;
     padding: 2em;
     border-radius: 1em;
 }
@@ -69,45 +89,101 @@ Start adding styles to the top of the page and work down. Only move on to the ne
     text-decoration: none;
     color: #F74780;
 }
-
+.courses svg{
+    position: relative;
+    bottom: 4em;
+}
 footer{
     background-color: #13183F;
+    display: flex;
+    justify-content: space-between;
 }
-footer #foo-1{
-    /* display: flex;
-    justify-content: flex-start; */
-    display: inline-block;
+#foo-1{
+    margin-left: 5em;
 }
-footer #foo-1 h2{
+#foo-1 h2{
     color: #FFFFFF;
 }
-footer #foo-2{
-    /* display: flex;
-    justify-content: flex-end; */
-    display: inline-block;
-    background-color: #4851FF;
+#foo-2{
+    background-image: linear-gradient(to bottom, rgb(72, 81, 255), rgb(240, 42, 166));
     border-radius: 3em;
     padding: 1em;
+    margin: 2em 5em 2em 2em;
     width: 6em;
 }
-footer #foo-2 a, #box1 a{
+#foo-2:hover{
+    background-image: linear-gradient(to bottom, rgba(72, 81, 255,0.5), rgba(240, 42, 166,0.5));
+}
+#foo-2 a, #box1 a{
     text-decoration: none;
     color: #FFFFFF;
 }
 
 @media only screen and (max-width: 576px){
+    #head-2{
+        margin-right: 5em;
+    }
+    #headingXL{
+        font-size: 32px;
+    }
+    #headingXL + p{
+        font-size: 16px;
+    }
+    #body00{
+        display: block;
+    }
+    #body01{
+        display: block;
+        position: static;
+    }
+    #body11{
+        display: block;
+        position: relative;
+        left: 2px;
+        bottom: 7px;
+    }
+    #box2{
+        margin: 7em 3em 1em 3em;
+        padding: 0 0 1em 0;
+    }
+    .courses{
+        margin: 1em 3em 1em 3em;
+    }
     #courselist{
         display: grid;
         grid-template-rows: 15% 17% 17% 17% 17%;
         grid-template-columns: 100%;
         margin: 0 0 5em 0;
+        position: inherit;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
+    #headingXL{
+        font-size: 40px;
+    }
+    #headingXL + p{
+        font-size: 18px;
+    }
+    #head-2{
+        margin-right: 5em;
+    }
+    #body01{
+        display: inline-block;
+        position: relative;
+        top: 1em;
+    }
+    #body11{
+        display: inline-block;
+        position: relative;
+        left: 1em;
+        bottom: 10em;
+    }
     #courselist{
         display: grid;
         grid-template-rows: 34% 33% 33%;
         grid-template-columns: 50% 50%;
         margin: 0 0 5em 0;
+        position: relative;
+        top: 5em;
     }
 }
